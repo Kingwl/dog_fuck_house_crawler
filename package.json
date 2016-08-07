@@ -1,0 +1,17 @@
+{
+  "name": "dog_fuck_house_crawler",
+  "version": "1.0.0",
+  "description": "find all house",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js -i 2000 -a 3000"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "commander": "^2.9.0",
+    "mongoose": "^4.5.8",
+    "superagent": "^2.1.0"
+  }
+}
