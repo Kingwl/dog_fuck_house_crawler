@@ -11,7 +11,9 @@ let HouseSchema = new mongoose.Schema({
     dist: { type: String },
     specs: [{ type: String }],
     money: { type: String },
-    month: { type: String }
+    month: { type: String },
+    lon: { type: Number },
+    lat: { type: Number }
 });
 
 const House = mongoose.model('House', HouseSchema);
